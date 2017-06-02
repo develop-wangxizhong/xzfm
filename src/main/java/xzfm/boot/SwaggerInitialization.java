@@ -16,7 +16,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * Created by wangxizhong on 17/3/24.
  */
 @Configuration
-@EnableSwagger2
 @ConfigurationProperties(prefix = "swagger")
 public class SwaggerInitialization {
     @NotBlank
