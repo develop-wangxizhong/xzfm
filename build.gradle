@@ -21,6 +21,15 @@ repositories {
 	mavenCentral()
 }
 
+task sourcesJar(type: Jar, dependsOn: classes) {
+	classifier = 'sources'
+	from sourceSets.main.allSource
+}
+
+artifacts {
+	archives sourcesJar
+}
+
 
 dependencies {
 	compile ('com.alibaba:druid:1.0.29')
