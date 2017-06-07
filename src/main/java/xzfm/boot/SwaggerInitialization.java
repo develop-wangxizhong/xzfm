@@ -42,9 +42,9 @@ public class SwaggerInitialization {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("DevelopmentTeam RestFul APIs")
-                .description("版权所有:王熙中")
+                .description("Copyright:Xizhong Wang")
                 .termsOfServiceUrl("http://www.icoding.net.cn/")
-                .contact("WangXiZhong")
+                .contact("Xizhong Wang")
                 .version("1.0.0")
                 .build();
     }
