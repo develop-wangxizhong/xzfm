@@ -1,4 +1,4 @@
-package xzfm.domain.core;
+package xzfm.domain.jpa;
 
 import org.hibernate.SQLQuery;
 import org.hibernate.transform.Transformers;

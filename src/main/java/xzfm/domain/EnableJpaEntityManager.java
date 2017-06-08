@@ -1,7 +1,7 @@
 package xzfm.domain;
 
 import org.springframework.context.annotation.Import;
-import xzfm.domain.core.InitializationJpaEntityManager;
+import xzfm.domain.jpa.InitializationJpaEntityManager;
 
 import java.lang.annotation.*;
 
