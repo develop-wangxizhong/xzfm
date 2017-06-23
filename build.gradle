@@ -14,7 +14,6 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
-version = 'xzfm-1.0.0'
 sourceCompatibility = 1.8
 
 repositories {

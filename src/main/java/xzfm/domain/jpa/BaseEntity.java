@@ -1,4 +1,5 @@
 package xzfm.domain.jpa;
+
 import xzfm.util.UUIDUtil;
 
 import javax.persistence.*;

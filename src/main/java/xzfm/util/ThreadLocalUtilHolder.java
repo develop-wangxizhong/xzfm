@@ -4,7 +4,7 @@ package xzfm.util;
  * Created by wangxizhong on 2016/12/6.
  */
 public abstract class ThreadLocalUtilHolder<T> {
-    private ThreadLocal<T> threadLocal = new ThreadLocal<T>();
+    private ThreadLocal<T> threadLocal = new ThreadLocal<>();
 
     public T get() {
         T instance = threadLocal.get();
